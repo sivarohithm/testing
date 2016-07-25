@@ -8,7 +8,7 @@ public class TestBankAccount {
 
 @Test
 
-public void testDebit(){
+public void testDebitAmount(){
 
 BankAccount account = new BankAccount(10);
 double amount = account.debit(5);
